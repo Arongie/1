@@ -1,0 +1,95 @@
+body{
+    background-color: rgba(211, 188, 178, 0.959);
+}
+.logo img{
+    height: 70px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif
+}
+header ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(98, 78, 70, 0.959);
+}
+header li a,header li{
+    padding: 15px;
+    color: #000;
+    text-decoration:none ;
+}
+p a{
+    color: black;
+}
+main{   
+    width: 900px;
+    margin: 0 auto;
+}
+
+.card{
+    background: rgba(243, 227, 212, 0.959);
+    border: 1px;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    margin-top: 15px;
+    transition: .3s;
+}
+
+.card img{
+    margin-right: 15px;
+    border-radius: 15px;
+    height: 120px;
+}
+.card:hover{
+    transform: scale(1.05);
+}
+aside {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 5px;
+    overflow: hidden;
+    background: rgb(207, 10, 207);
+    transition: .3s
+}
+aside:hover {
+    width:150px;
+}
+.akciya:hover{
+    transform: scale(1.05);
+}
+.akciya{
+    text-align: center;
+}
+.akcii{
+    display: flex;
+    justify-content: space-between;
+}
+.akciya img{
+    background: rgba(243, 227, 212, 0.959);
+    border-radius: 50%;
+    width: 150px;
+    margin-top: 20px;
+    padding:5px;
+}
+@media (min-width: 1921px) { 
+    header{
+        justify-content: center;
+    }
+ }
+ @media (max-width: 910px) { 
+    main{
+        width: 95%;
+    }
+ }
+
+
